@@ -1,0 +1,159 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:rgb(70, 137, 146);
+    position: sticky;
+    padding: 0;
+    top: 0;
+    /* z-index: 100; */
+    /* box-shadow: 5px 2px  rgb(0,0,0.1); */
+    margin: 0;
+}
+
+
+.navlist ul li{
+	display: inline-block;
+	list-style: none;
+}
+.navlist ul li a{
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	margin: 0;
+	padding-right: 15px;
+	position: relative;
+	color: rgb(3, 45, 50);
+    text-decoration:none ;
+}
+
+.logo {
+    padding: 12px 12px;
+    float: right;
+    padding-left: 20px;
+      /* border-radius: 60%; */
+       /* background-color: antiquewhite; */
+       color: rgb(3, 45, 50);
+       font-weight: bold;
+       font-size: larger;
+}
+
+.first{
+    height: 400px;
+    background: #181C14;
+}
+.start{
+    padding:2px 0 0 100px ;
+    font-size:40px;
+    color: rgb(150, 209, 217);
+}
+
+.start h4{
+    padding-top: 0;
+    
+}
+.start h1{
+    padding-top: 0;
+    
+}
+.about{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    background-color:  rgb(114, 173, 181);
+}
+.about .d2{
+    width: 50%;
+}
+.about .d2 h1{
+    font-size: 50px;
+    color: rgb(3, 45, 50);
+} 
+.about .d2 p{
+    font-size: 16px;
+    align-items: center;
+    width: 600px;
+    color:rgb(3, 45, 50);
+}
+.about .d2 .p1{
+    padding-top: 14px;
+}
+.about .d2 .p2{
+    padding-top: 8px;
+}
+.about .d2 img{
+    padding: 50px 200px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+/* DIV3 */
+
+
+/* DIV4 */
+
+.edu{
+    height: 600px;
+    display: flex;
+    background:  #181C14;
+    width: 100%;
+}
+.edu .d4{
+    width: 50%;
+}
+
+.edu .d4 h1{
+    font-size: 85px;
+    margin: 150px 50px;
+    color: rgb(114, 173, 181);
+}
+.edu #d4grid{
+    display: grid;    
+    padding: 50px;
+}
+
+.edu .d4 .edutxt{    
+    margin: 5px;
+    display: flex;
+}
+.edu .d4 .edutxt .ecircle{
+    width: 40px;
+    height: 40px;
+    background-color:  rgb(3, 45, 50);
+    border-radius: 50%;
+}
+.edu .d4 .edutxt .p1{
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(114, 173, 181);
+}
+.edu .d4 .edutxt .p2{
+    font-size: 18px;
+    padding: 10px;
+    color: rgb(114, 173, 181);
+}
+.edu .d4 .edutxt .p3{
+    font-size: 15px;
+    padding: 0 10px;
+    color: rgb(114, 173, 181);
+}
+.skills{
+    height: 350px;
+    background-color:  rgb(114, 173, 181);
+    width: 100%;
+    color: rgb(3, 45, 50);
+}
+#topic1{
+display: flex;
+font-size: 30px;
+padding: 10px 0 0 50px;
+
+}
+
+#topic2{
+    display: flex;
+    font-size: 20px;
+    padding: 0 0 0 60px;
+}
+
